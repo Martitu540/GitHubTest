@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Console.ReadLine());
+            int n = 1;
+            n++;
+            Print(n);
+        }
+        static void Print(int n)
+        {
+            Console.WriteLine($"{Console.ReadLine()}");
         }
     }
 }
